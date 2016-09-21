@@ -15,6 +15,14 @@
 		E0F01C431D90C51700C17945 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F01C411D90C51700C17945 /* LaunchScreen.storyboard */; };
 		E0F01C4E1D90C51700C17945 /* UDPDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01C4D1D90C51700C17945 /* UDPDemoTests.m */; };
 		E0F01C591D90C51700C17945 /* UDPDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01C581D90C51700C17945 /* UDPDemoUITests.m */; };
+		E0F01C731D90C5B300C17945 /* Documentation.html in Resources */ = {isa = PBXBuildFile; fileRef = E0F01C6E1D90C5B300C17945 /* Documentation.html */; };
+		E0F01C741D90C5B300C17945 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01C701D90C5B300C17945 /* GCDAsyncSocket.m */; };
+		E0F01C751D90C5B300C17945 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01C721D90C5B300C17945 /* GCDAsyncUdpSocket.m */; };
+		E0F01C791D90CF4300C17945 /* UdpSocketController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01C781D90CF4300C17945 /* UdpSocketController.m */; };
+		E0F01C7C1D90D0D400C17945 /* bg_login@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E0F01C7A1D90D0D400C17945 /* bg_login@2x.jpg */; };
+		E0F01C7D1D90D0D400C17945 /* ffb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F01C7B1D90D0D400C17945 /* ffb@2x.png */; };
+		E0F01C811D91131700C17945 /* default_message.png in Resources */ = {isa = PBXBuildFile; fileRef = E0F01C801D91131700C17945 /* default_message.png */; };
+		E0F01C841D9115B400C17945 /* UDPSockey.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F01C831D9115B400C17945 /* UDPSockey.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,18 @@
 		E0F01C541D90C51700C17945 /* UDPDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UDPDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F01C581D90C51700C17945 /* UDPDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UDPDemoUITests.m; sourceTree = "<group>"; };
 		E0F01C5A1D90C51700C17945 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F01C6E1D90C5B300C17945 /* Documentation.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Documentation.html; sourceTree = "<group>"; };
+		E0F01C6F1D90C5B300C17945 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		E0F01C701D90C5B300C17945 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		E0F01C711D90C5B300C17945 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		E0F01C721D90C5B300C17945 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		E0F01C771D90CF4300C17945 /* UdpSocketController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UdpSocketController.h; sourceTree = "<group>"; };
+		E0F01C781D90CF4300C17945 /* UdpSocketController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UdpSocketController.m; sourceTree = "<group>"; };
+		E0F01C7A1D90D0D400C17945 /* bg_login@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg_login@2x.jpg"; sourceTree = "<group>"; };
+		E0F01C7B1D90D0D400C17945 /* ffb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ffb@2x.png"; sourceTree = "<group>"; };
+		E0F01C801D91131700C17945 /* default_message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_message.png; sourceTree = "<group>"; };
+		E0F01C821D9115B400C17945 /* UDPSockey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UDPSockey.h; sourceTree = "<group>"; };
+		E0F01C831D9115B400C17945 /* UDPSockey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UDPSockey.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +101,10 @@
 		E0F01C271D90C51700C17945 = {
 			isa = PBXGroup;
 			children = (
+				E0F01C801D91131700C17945 /* default_message.png */,
+				E0F01C7A1D90D0D400C17945 /* bg_login@2x.jpg */,
+				E0F01C7B1D90D0D400C17945 /* ffb@2x.png */,
+				E0F01C6D1D90C5B300C17945 /* GCD */,
 				E0F01C321D90C51700C17945 /* UDPDemo */,
 				E0F01C4C1D90C51700C17945 /* UDPDemoTests */,
 				E0F01C571D90C51700C17945 /* UDPDemoUITests */,
@@ -101,10 +125,13 @@
 		E0F01C321D90C51700C17945 /* UDPDemo */ = {
 			isa = PBXGroup;
 			children = (
+				E0F01C761D90CF4300C17945 /* udp socket */,
 				E0F01C361D90C51700C17945 /* AppDelegate.h */,
 				E0F01C371D90C51700C17945 /* AppDelegate.m */,
 				E0F01C391D90C51700C17945 /* ViewController.h */,
 				E0F01C3A1D90C51700C17945 /* ViewController.m */,
+				E0F01C821D9115B400C17945 /* UDPSockey.h */,
+				E0F01C831D9115B400C17945 /* UDPSockey.m */,
 				E0F01C3C1D90C51700C17945 /* Main.storyboard */,
 				E0F01C3F1D90C51700C17945 /* Assets.xcassets */,
 				E0F01C411D90C51700C17945 /* LaunchScreen.storyboard */,
@@ -138,6 +165,27 @@
 				E0F01C5A1D90C51700C17945 /* Info.plist */,
 			);
 			path = UDPDemoUITests;
+			sourceTree = "<group>";
+		};
+		E0F01C6D1D90C5B300C17945 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				E0F01C6E1D90C5B300C17945 /* Documentation.html */,
+				E0F01C6F1D90C5B300C17945 /* GCDAsyncSocket.h */,
+				E0F01C701D90C5B300C17945 /* GCDAsyncSocket.m */,
+				E0F01C711D90C5B300C17945 /* GCDAsyncUdpSocket.h */,
+				E0F01C721D90C5B300C17945 /* GCDAsyncUdpSocket.m */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		E0F01C761D90CF4300C17945 /* udp socket */ = {
+			isa = PBXGroup;
+			children = (
+				E0F01C771D90CF4300C17945 /* UdpSocketController.h */,
+				E0F01C781D90CF4300C17945 /* UdpSocketController.m */,
+			);
+			path = "udp socket";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +294,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F01C811D91131700C17945 /* default_message.png in Resources */,
+				E0F01C7C1D90D0D400C17945 /* bg_login@2x.jpg in Resources */,
 				E0F01C431D90C51700C17945 /* LaunchScreen.storyboard in Resources */,
 				E0F01C401D90C51700C17945 /* Assets.xcassets in Resources */,
+				E0F01C7D1D90D0D400C17945 /* ffb@2x.png in Resources */,
 				E0F01C3E1D90C51700C17945 /* Main.storyboard in Resources */,
+				E0F01C731D90C5B300C17945 /* Documentation.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +325,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F01C741D90C5B300C17945 /* GCDAsyncSocket.m in Sources */,
 				E0F01C3B1D90C51700C17945 /* ViewController.m in Sources */,
+				E0F01C791D90CF4300C17945 /* UdpSocketController.m in Sources */,
 				E0F01C381D90C51700C17945 /* AppDelegate.m in Sources */,
+				E0F01C841D9115B400C17945 /* UDPSockey.m in Sources */,
+				E0F01C751D90C5B300C17945 /* GCDAsyncUdpSocket.m in Sources */,
 				E0F01C351D90C51700C17945 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,10 +474,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UDPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbar.UDPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -429,10 +489,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UDPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapbar.UDPDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -501,6 +565,7 @@
 				E0F01C5F1D90C51700C17945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0F01C601D90C51700C17945 /* Build configuration list for PBXNativeTarget "UDPDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +574,7 @@
 				E0F01C621D90C51700C17945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0F01C631D90C51700C17945 /* Build configuration list for PBXNativeTarget "UDPDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +583,7 @@
 				E0F01C651D90C51700C17945 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
